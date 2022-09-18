@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="second.css">
+<style>
+    .insta-default {
+  margin: auto;
+}
+.insta-default a {
+  padding: 15px 30px;
+  display: block;
+  background-color: #E33E5C;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #FFF;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.insta-default a:hover {
+  box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+}
+.insta-default a i {
+  color: #FFF;
+  font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+  <form action="/login" method="get">
+<!-- partial:index.partial.html -->
+<section class="login-block">
+    <div class="container">
+	<div class="row">
+		<div class="col-md-4 login-sec">
+		    <h2 class="text-center">Login Now</h2>
+		    <form class="login-form">
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="text-uppercase">Username</label>
+    <input type="text" class="form-control" placeholder="">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="text-uppercase">Password</label>
+    <input type="password" class="form-control" placeholder="">
+  </div>
+  
+  
+    <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      <small>Remember Me</small>
+    </label>
+   
+    <button type="submit" class="btn btn-login float-right">Submit</button>
+ 
+    <hr style="border-top: 8px solid #bbb;border-radius: 5px; color: #121f1c;">
+    <strong> Get 25%off </strong> 
+    
+    <div class="insta-default">
+        <a href="./insta" class="insta-default">Log in with Instagram <i class="fa fa-instagram"></i></a>
+       </div>
+  </div>
+  
+
+
+		</div>
+		<div class="col-md-8 banner-sec">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+            <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="https://images.pexels.com/photos/6140456/pexels-photo-6140456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2 >What is a U.S. Visa?</h2>
+            <p >A citizen of a foreign country who seeks to enter the United States generally must first obtain a U.S. visa, which is placed in the traveler’s passport, a travel document issued by the traveler’s country of citizenship.</p>
+        </div>	
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://images.pexels.com/photos/12442309/pexels-photo-12442309.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2 >Visa Appointment</h2>
+            <p >Check the estimated wait time for a nonimmigrant visa interview appointment at a U.S. Embassy or Consulate.</p>
+        </div>	
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://images.pexels.com/photos/1006965/pexels-photo-1006965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2 >Find out what visa type is appropriate for you?</h2>
+            <p  >The type of visa you must obtain is defined by U.S. immigration law, and relates to the purpose of your travel.</p>
+        </div>	
+    </div>
+  </div>
+            </div>	   
+		    
+		</div>
+	</div>
+</div>
+</section>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js'></script>
+</form>
+</body>
+
+</html>
